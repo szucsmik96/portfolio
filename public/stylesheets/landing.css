@@ -25,7 +25,7 @@ h1{
 .content {
     position:relative;
     z-index:2;
-    background-color: black;
+    background: rgba(0, 0, 0, 0.8);
     height:60%; 
     padding: 20px;
 }
@@ -59,20 +59,20 @@ hr.line-2{
     background: white;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, white));    
 }
-.section#about {
-    background-image: url(https://wallpaperscraft.com/image/eden_hazard_chelsea_footballer_99043_3840x2160.jpg);
+.section {
+    background-image: url(https://dzbc.org/wp-content/uploads/data/2018/2/15/HD-Computer-Science-Wallpapers-amazing-images-windows-wallpapers-free-images-widescreen-dual-monito-PIC-MCH071720.jpg);
 }
-.section#skills {
-    background-image: url(https://wallpapercave.com/wp/wp1951041.jpg);
-}
-.section#projects {
-    background-image: url(https://i.pinimg.com/originals/22/c7/c9/22c7c9c8d5140c0f4f323e6e083f8058.jpg);
-}
-.section#resume {
-    background-image: url(https://d.ibtimes.co.uk/en/full/1614260/antonio-conte.jpg?w=736&e=f09af28c0135a769cdfc73ea5fa0f3e8);
-}
-.section#contact {
-    background-image: url(https://d.ibtimes.co.uk/en/full/1614260/antonio-conte.jpg?w=736&e=f09af28c0135a769cdfc73ea5fa0f3e8);
+/*.section#skills {*/
+/*    background-image: url(https://dzbc.org/wp-content/uploads/data/2018/2/15/HD-Computer-Science-Wallpapers-amazing-images-windows-wallpapers-free-images-widescreen-dual-monito-PIC-MCH071720.jpg);*/
+/*}*/
+/*.section#projects {*/
+/*    background-image: url(https://dzbc.org/wp-content/uploads/data/2018/2/15/HD-Computer-Science-Wallpapers-amazing-images-windows-wallpapers-free-images-widescreen-dual-monito-PIC-MCH071720.jpg);*/
+/*}*/
+/*.section#resume {*/
+/*    background-image: url(https://d.ibtimes.co.uk/en/full/1614260/antonio-conte.jpg?w=736&e=f09af28c0135a769cdfc73ea5fa0f3e8);*/
+/*}*/
+/*.section#contact {*/
+/*    background-image: url(https://d.ibtimes.co.uk/en/full/1614260/antonio-conte.jpg?w=736&e=f09af28c0135a769cdfc73ea5fa0f3e8);*/
 }
 #navbar{
     padding: 10;
@@ -113,4 +113,8 @@ hr.line-2{
 }
 #about{
     align-items:center;
+    height:600px;
+}
+#skills{
+    height:1200px;
 }
