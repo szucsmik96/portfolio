@@ -1,0 +1,116 @@
+body {
+    font-family: helvetica;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    margin-top: 17%;
+}
+.index-page{
+    background-color: #696969;
+    margin-bottom: 0;
+    height: 740px;
+}
+.section {
+    position:relative;
+    z-index:1;
+    height:700px;
+    width:100%;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.content {
+    position:relative;
+    z-index:2;
+    background-color: black;
+    height:60%; 
+    padding: 20px;
+}
+.text{
+    text-align: justify;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.description{
+    margin-bottom: 0;
+}
+.title{
+    font-size: 2rem;
+}
+hr.line-1{
+    align-items: center;
+    width: 250px;
+    margin-top: 1rem;
+    height: 1px;
+    border: 0;
+    background: white;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#696969), to(#696969), color-stop(50%, white));     
+}
+hr.line-2{
+    align-items: center;
+    width: 1000px;
+    margin-top: 1rem;
+    height: 1px;
+    border: 0;
+    background: white;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, white));    
+}
+.section#about {
+    background-image: url(https://wallpaperscraft.com/image/eden_hazard_chelsea_footballer_99043_3840x2160.jpg);
+}
+.section#skills {
+    background-image: url(https://wallpapercave.com/wp/wp1951041.jpg);
+}
+.section#projects {
+    background-image: url(https://i.pinimg.com/originals/22/c7/c9/22c7c9c8d5140c0f4f323e6e083f8058.jpg);
+}
+.section#resume {
+    background-image: url(https://d.ibtimes.co.uk/en/full/1614260/antonio-conte.jpg?w=736&e=f09af28c0135a769cdfc73ea5fa0f3e8);
+}
+.section#contact {
+    background-image: url(https://d.ibtimes.co.uk/en/full/1614260/antonio-conte.jpg?w=736&e=f09af28c0135a769cdfc73ea5fa0f3e8);
+}
+#navbar{
+    padding: 10;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+#navbar a:hover{
+    color: #e5e5e5;
+}
+#nav-home{
+    display: inline-block;
+    padding: 0 10;
+}
+#nav-about{
+    display: inline-block;
+    padding: 0 10;
+}
+#nav-skills{
+    display: inline-block;
+    padding: 0 10;    
+}
+#nav-projects{
+    display: inline-block;
+    padding: 0 10;    
+}
+#nav-resume{
+    display: inline-block;
+    padding: 0 10;    
+}
+#nav-contact{
+    display: inline-block;
+    padding: 0 10;    
+}
+#description{
+    font-size: 1.5rem;
+}
+#about{
+    align-items:center;
+}
