@@ -28,6 +28,7 @@ h1{
     background: rgba(0, 0, 0, 0.8);
     height:60%; 
     padding: 20px;
+    white-space: nowrap;
 }
 .text{
     text-align: justify;
